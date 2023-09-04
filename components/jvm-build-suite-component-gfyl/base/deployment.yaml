@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-gfyl
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rh-gitops-bot/jvm-build-thhz-tenant/jvm-build-suite-application-jofm/jvm-build-suite-component-gfyl@sha256:fad163032d3ad2c3acfe8114bcb4efa3c71b4fc78aa2bb786153892ca6e3f949
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
