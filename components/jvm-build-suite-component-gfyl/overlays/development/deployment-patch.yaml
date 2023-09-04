@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-gfyl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh-gitops-bot/jvm-build-thhz-tenant/jvm-build-suite-application-jofm/jvm-build-suite-component-gfyl@sha256:fad163032d3ad2c3acfe8114bcb4efa3c71b4fc78aa2bb786153892ca6e3f949
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
